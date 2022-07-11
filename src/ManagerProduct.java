@@ -99,6 +99,7 @@ public class ManagerProduct {
                 System.out.println("Khong tim thay ma san pham voi ma san pham tren");
             }
         }
+        saveProduct();
 
     }
     public void searchMaxPrice(){
