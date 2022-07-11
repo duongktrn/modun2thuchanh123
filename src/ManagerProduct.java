@@ -84,6 +84,7 @@ public class ManagerProduct {
         products.get(checkID(idNew)).setDescribe(des);
         System.out.println("cao nhat mo ta thanh cong");
         System.out.println("cap nhat san pham moi thanh cong");
+        saveProduct();
     }
     public void deleteProduct(Scanner scanner){
         readProduct();
@@ -121,6 +122,7 @@ public class ManagerProduct {
             }
         }
     }
+
 
 
     public void saveProduct() {
