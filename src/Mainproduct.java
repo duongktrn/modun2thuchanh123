@@ -24,6 +24,7 @@ public class Mainproduct {
                      case 4:managerProduct.deleteProduct(scanner);
                      break;
                      case 6:managerProduct.searchMaxPrice();
+                     break;
                      case 7:managerProduct.readProduct();
                          System.out.println("Doc file thanh cong");
                      break;
